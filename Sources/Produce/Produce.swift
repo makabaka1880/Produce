@@ -5,7 +5,7 @@ import IOKit
 public struct Device {
     /// The device's name.
     public var name: String? {
-        return Host.current().name
+        return shell("scutil --get ComputerName")
     }
     
     /// The device's serial number.
