@@ -3,6 +3,10 @@ import IOKit
 
 /// An object for accessing information about your current device.
 public struct Device {
+    
+    /// The current device.
+    public static var current: Device = Device()
+    
     /// The device's name.
     public var name: String? {
         return shell("scutil --get ComputerName")
