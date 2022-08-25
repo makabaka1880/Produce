@@ -9,13 +9,17 @@ This a Swift package for accessing most commonly used properties of the device; 
 ## Topics
 
 ### Accessing the device
-
 - ``Device``
 
 ### Accessing the CPU
-
 - ``CentralProcessor``
 
 
 ### Accessing the GPU
 - ``GraphicProcessor``
+
+### Accessing the Battery
+- ``Battery``
+
+### Accessing the Networking
+- ``Network``

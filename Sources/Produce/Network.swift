@@ -8,7 +8,7 @@
 import Cocoa
 import Darwin
 
-/// An objectt for acessing the network of the device.
+/// An object for acessing the network of the device.
 public class Network: NSObject {
     
     /// The current network of this device.
